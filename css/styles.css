@@ -72,6 +72,7 @@ a {
 .button-box {
     background: #4d5ae5;
     cursor: pointer;
+    font-family: "Roboto", sans-serif;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
