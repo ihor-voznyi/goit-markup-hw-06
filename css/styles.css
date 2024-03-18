@@ -50,3 +50,8 @@ a {
     letter-spacing: 0.02em;
     color: #434455
 }
+
+.contacts-link:hover,
+.contacts-link:focus {
+    color: #404bbf;
+}
