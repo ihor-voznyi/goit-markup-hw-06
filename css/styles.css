@@ -2,6 +2,8 @@ body {
     font-family: "Roboto", sans-serif;
     color: #434455;
     background: #fff;
+    margin: 0 auto;
+    width: 1440px;
 }
 
 ul {
@@ -10,6 +12,16 @@ ul {
 
 a {
     text-decoration: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+ul,
+p {
+    margin: 0 auto;
+    padding: 0;
 }
 
 .nav-logo {
@@ -39,8 +51,16 @@ a {
     color: #404bbf;
 }
 
+.contacts {
+    display: flex;
+    margin: 0 auto;
+    padding: 0;
+    gap: 40px;
+}
+
 .address-box {
     font-style: normal;
+    margin-left: 332px;
 }
 
 .contacts-link {
@@ -48,7 +68,8 @@ a {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    color: #434455
+    color: #434455;
+    display: block;
 }
 
 .contacts-link:hover,
@@ -58,6 +79,7 @@ a {
 
 .section-one {
     background: #2e2f42;
+    height: 600px;
 }
 
 .section-one-name {
@@ -67,6 +89,7 @@ a {
     letter-spacing: 0.02em;
     text-align: center;
     color: #fff;
+    padding: 188px 472px 472px;
 }
 
 .button-box {
@@ -78,11 +101,20 @@ a {
     line-height: 1.5;
     letter-spacing: 0.04em;
     color: #fff;
+    margin: 48px 635px 635px;
+    border-radius: 4px;
+    width: 169px;
+    height: 56px;
 }
 
 button:hover,
 button:focus {
     background: #404bbf;
+}
+
+.section-two {
+    margin: 0;
+    height: 340px;
 }
 
 .section-two-name {
@@ -118,6 +150,7 @@ button:focus {
     text-align: center;
     color: #2e2f42;
     text-transform: capitalize;
+    padding-top: 124px;
 }
 
 .section-three-list {
@@ -143,6 +176,7 @@ button:focus {
 
 .section-three {
     background: #f4f4fd;
+    height: 732px;
 }
 
 .section-four-name {
@@ -153,6 +187,7 @@ button:focus {
     text-align: center;
     color: #2e2f42;
     text-transform: capitalize;
+    padding-top: 124px;
 }
 
 .section-four-name-list {
