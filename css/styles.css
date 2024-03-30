@@ -1,3 +1,9 @@
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
 body {
     font-family: "Roboto", sans-serif;
     color: #434455;
@@ -127,6 +133,12 @@ button:focus {
     text-transform: capitalize;
 }
 
+.section-two-item {
+    display: flex;
+    margin: 120px 156px 0 156px;
+    gap: 24px;
+}
+
 .section-two-name-list {
     font-weight: 500;
     font-size: 20px;
@@ -151,6 +163,14 @@ button:focus {
     color: #2e2f42;
     text-transform: capitalize;
     padding-top: 124px;
+}
+
+.section-three-item {
+    display: flex;
+    margin: 72px 144px 0 168px;
+    gap: 24px;
+    width: 264px;
+    height: 380px;
 }
 
 .section-three-list {
@@ -188,6 +208,13 @@ button:focus {
     color: #2e2f42;
     text-transform: capitalize;
     padding-top: 124px;
+}
+
+.section-four-item {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 24px;
+    margin: 72px 156px 120px 156px;
 }
 
 .section-four-name-list {
