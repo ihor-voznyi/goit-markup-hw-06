@@ -30,6 +30,17 @@ p {
     padding: 0;
 }
 
+.nav-list {
+    display: flex;
+}
+
+.nav-item {
+    display: flex;
+    margin: 0 auto;
+    padding: 0;
+    gap: 40px;
+}
+
 .nav-logo {
     font-family: "Raleway", sans-serif;
     font-weight: 700;
@@ -37,7 +48,9 @@ p {
     line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
-    color: #4d5ae5
+    color: #4d5ae5;
+    margin-left: 156px;
+    margin-right 76px;
 }
 
 .nav-logo-word {
