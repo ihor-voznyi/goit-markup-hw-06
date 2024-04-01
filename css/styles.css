@@ -29,6 +29,10 @@ p {
     padding: 0;
 }
 
+img {
+    display: block;
+}
+
 .header {
     border-bottom: 1px solid #e7e9fc;
 }
