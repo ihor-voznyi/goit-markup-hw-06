@@ -1,7 +1,11 @@
+html {
+    box-sizing: border-box;
+}
+
 *,
 *::before,
 *::after {
-    box-sizing: border-box;
+    box-sizing: inherit;
 }
 
 body {
@@ -187,6 +191,7 @@ button:focus {
 }
 
 .visually-hidden {
+    display: none;
     position: absolute;
     width: 1px;
     height: 1px;
