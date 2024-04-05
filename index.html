@@ -3,6 +3,12 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,700;1,700&family=Roboto:ital,wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
     <title>MainPage</title>
     <link
       rel="stylesheet"
@@ -11,37 +17,36 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
-    <link rel="stylesheet" href="./css/styles.css" />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,700;1,700&family=Roboto:ital,wght@400;500;700&display=swap"
-      rel="stylesheet"
-    />
+    <link rel="stylesheet" href="./css/styles.css"/>
   </head>
   <body>
     <header class="header">
-      <!--menu navigation-->
-      <div class="container-header container">
+      <div class="container">
         <nav class="nav-list">
           <a class="nav-logo" href="./index.html"
             >Web<span class="nav-logo-word">Studio</span></a
           >
-          <ul class="nav-item">
-            <li><a class="nav-link" href="./index.html">Studio</a></li>
-            <li><a class="nav-link" href="">Portfolio</a></li>
-            <li><a class="nav-link" href="">Contacts</a></li>
+          <ul class="nav-list">
+            <li class="nav-item">
+              <a class="nav-link" href="./index.html">Studio</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="">Portfolio</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="">Contacts</a>
+            </li>
           </ul>
         </nav>
-        <!-- Contacts -->
+
         <address class="address-box">
-          <ul>
-            <li>
+          <ul class="contact-list">
+            <li class="contact-item">
               <a class="contacts-link" href="mailto:info@devstudio.com"
                 >info@devstudio.com
               </a>
             </li>
-            <li>
+            <li class="contact-item">
               <a class="contacts-link" href="tel:+110001111111"
                 >+11 (000) 111-11-11
               </a>
@@ -50,47 +55,43 @@
         </address>
       </div>
     </header>
+
     <main>
-      <!--Section one - Name-->
+
       <section class="section-one">
-        <div class="container-section-one">
-          <h1 class="section-one-name">
-            Effective Solutions for Your Business
-          </h1>
-          <button class="button-box" type="button">
-            <span class="buttom-text">Order Service</span>
-          </button>
+        <div class="container">
+          <h1 class="solutions-title">Effective Solutions for Your Business</h1>
+          <button class="button-box" type="button">Order Service</button>
         </div>
       </section>
 
-      <!--Section two - Advantages-->
       <section class="section-two">
-        <div class="container-section-two">
+        <div class="container">
           <h2 class="section-two-name visually-hidden">Our features</h2>
-          <ul class="section-two-item">
-            <li>
-              <h3 class="section-two-name-list">Strategy</h3>
+          <ul class="section-two-list">
+            <li class="section-two-item">
+              <h3 class="section-title-list">Strategy</h3>
               <p class="section-two-text">
                 Our goal is to identify the business problem to walk away with
                 the perfect and creative solution.
               </p>
             </li>
-            <li>
-              <h3 class="section-two-name-list">Punctuality</h3>
+            <li class="section-two-item">
+              <h3 class="section-title-list">Punctuality</h3>
               <p class="section-two-text">
                 Bring the key message to the brand's audience for the best price
                 within the shortest possible time.
               </p>
             </li>
-            <li>
-              <h3 class="section-two-name-list">Diligence</h3>
+            <li class="section-two-item">
+              <h3 class="section-title-list">Diligence</h3>
               <p class="section-two-text">
                 Research and confirm brands that present the strongest digital
                 growth opportunities and minimize risk.
               </p>
             </li>
-            <li>
-              <h3 class="section-two-name-list">Technologies</h3>
+            <li class="section-two-item">
+              <h3 class="section-title-list">Technologies</h3>
               <p class="section-two-text">
                 Design practice focused on digital experiences. We bring forth a
                 deep passion for problem-solving.
@@ -99,97 +100,144 @@
           </ul>
         </div>
       </section>
-      <!--Our team-->
-      <section class="section-three">
-        <div class="container-section-three">
-          <h2 class="section-three-name">Our Team</h2>
 
-          <ul class="section-three-item">
-            <li class="section-three-list">
-              <img
+      <section class="section-three">
+        <div class="container">
+          <h2 class="section-three-name">Our Team</h2>
+          <ul class="section-three-list">
+            <li class="section-three-item">
+              <img class="section-three-img" 
                 src="./images/mark.jpg"
                 alt="Photo Mark Guerrero"
                 width="264"
+                height="280"
               />
+              <div class="section-team-discr">
               <h3 class="section-three-name-list">Mark Guerrero</h3>
               <p class="section-three-text">Product Designer</p>
+              </div>
             </li>
-            <li class="section-three-list">
-              <img src="./images/tom.jpg" alt="Photo Tom Ford" width="264" />
+            <li class="section-three-item">
+              <img class="section-three-img"
+                src="/images/tom.jpg"
+                alt="Photo Tom Ford"
+                width="264"
+                height="280"
+                />
+                <div class="section-team-discr">
               <h3 class="section-three-name-list">Tom Ford</h3>
               <p class="section-three-text">Frontend Developer</p>
+              </div>
             </li>
-            <li class="section-three-list">
-              <img
+            <li class="section-three-item">
+              <img class="section-three-img"
                 src="./images/camila.jpg"
                 alt="Photo Camila Garcia"
                 width="264"
+                height="280"
               />
+              <div class="section-team-discr">
               <h3 class="section-three-name-list">Camila Garcia</h3>
               <p class="section-three-text">Marketing</p>
+              </div>
             </li>
-            <li class="section-three-list">
-              <img
+            <li class="section-three-item">
+              <img class="section-three-img"
                 src="./images/daniel.jpg"
                 alt="Photo Daniel Wilson"
                 width="264"
+                height="280"
               />
+              <div class="section-team-discr">
               <h3 class="section-three-name-list">Daniel Wilson</h3>
               <p class="section-three-text">UI Designer</p>
+              </div>
             </li>
           </ul>
         </div>
       </section>
-      <!-- Portfolio -->
+      
       <section class="section-four">
-        <div class="container-section-four">
+        <div class="container">
           <h2 class="section-four-name">Our Portfolio</h2>
-
-          <ul class="section-four-item">
-            <li class="section-four-list">
-              <img src="./images/banking.jpg" alt="Banking app" width="360" />
-              <h3 class="section-four-name-list">Banking App</h3>
+          <ul class="section-four-list">
+            <li class="section-four-item">
+              <img class="section-four-img"
+              src="./images/banking.jpg"
+              alt="Banking app"
+              width="360"
+              height="300"
+              />
+              <div class="pottfolio-descr">
+              </h3 class="section-four-title">Banking App</h3>
               <p class="section-four-text">App</p>
+            </div>
             </li>
-            <li class="section-four-list">
-              <img src="./images/cashless.jpg" alt="Cashless app" width="360" />
-              <h3 class="section-four-name-list">Cashless Payment</h3>
+            <li class="section-four-item">
+              <img class="section-four-img"
+                src="./images/cashless.jpg"
+                alt="Cashless app"
+                width="360"
+                height="300"
+                />
+          <div class="portfolio-descr">
+              <h3 class="section-four-title">Cashless Payment</h3>
               <p class="section-four-text">Marketing</p>
+            </div>
             </li>
-            <li class="section-four-list">
-              <img
+            <li class="section-four-item">
+              <img class="section-four-img"
                 src="./images/meditation.jpg"
                 alt="Meditation app"
                 width="360"
+                height="300"
               />
+              <div class="portfolio-descr">
               <h3 class="section-four-name-list">Meditation App</h3>
               <p class="section-four-text">App</p>
+              </div>
             </li>
-            <li class="section-four-list">
-              <img src="./images/taxi.jpg" alt="Inside the car" width="360" />
+            <li class="section-four-item">
+              <img class="section-four-img"
+              src="./images/taxi.jpg"
+              alt="Inside the car"
+              width="360"
+              />
+              <div class="portfolio-descr">
               <h3 class="section-four-name-list">Taxi Service</h3>
               <p class="section-four-text">Marketing</p>
+              </div>
             </li>
-            <li class="section-four-list">
-              <img src="./images/screen.jpg" alt="Screenserver" width="360" />
+            <li class="section-four-item">
+              <img class="section-four-img"
+              src="./images/screen.jpg"
+              alt="Screenserver"
+              width="360"
+              height="300"
+              />
+              <div class="portfolio-descr">
               <h3 class="section-four-name-list">Screen Illustrations</h3>
               <p class="section-four-text">Design</p>
+              </div>
             </li>
-            <li class="section-four-list">
-              <img
+            <li class="section-four-item">
+              <img class="section-four-img"
                 src="./images/online.jpg"
                 alt="Girl with phone"
                 width="360"
               />
+              <div class="portfolio-descr">
               <h3 class="section-four-name-list">Online Courses</h3>
               <p class="section-four-text">Marketing</p>
+              </div>
             </li>
           </ul>
         </div>
       </section>
     </main>
+
     <footer class="footer-box">
-      <div class="container-footer">
+      <div class="container">
         <a class="footer-logo" href="./index.html"
           >Web<span class="footer-logo-word">Studio</span></a
         >
