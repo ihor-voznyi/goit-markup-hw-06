@@ -152,7 +152,9 @@ section {
     text-align: center;
     letter-spacing: 0.02em;
     color: #fff;
-    margin-bottom: 0 auto 48px auto;
+
+    margin-right: auto;
+    margin-left: auto;
 }
 
 .button-box {
@@ -172,6 +174,7 @@ section {
     border: none;
 }
 
+
 button:hover {
     background-color: #404bbf;
 }
@@ -179,6 +182,7 @@ button:hover {
 button:focus {
     background: #404bbf;
 }
+
 
 .advantages-title,
 .team-title,
@@ -191,6 +195,7 @@ button:focus {
     text-transform: capitalize;
     margin-bottom: 72px;
 }
+
 
 .visually-hidden {
     display: none;
@@ -206,10 +211,12 @@ button:focus {
     overflow: hidden;
 }
 
+
 .advantages-list {
     display: flex;
     gap: 24px;
 }
+
 
 .advantages-list--item {
     width: calc((100% - 72px) / 4);
@@ -232,6 +239,7 @@ button:focus {
     letter-spacing: 0.02em;
 }
 
+
 .team {
     background-color: #f4f4fd;
 }
@@ -241,6 +249,7 @@ button:focus {
     justify-content: space-between;
     gap: 24px;
 }
+
 
 .team-list--item {
     background-color: #ffffff;
