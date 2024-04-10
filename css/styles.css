@@ -88,7 +88,7 @@ section {
 .header-nav--list {
     display: flex;
     gap: 40px;
-    justify-content: center;
+    justify-content: flex-end;
 }
 
 .header-nav--list-link {
