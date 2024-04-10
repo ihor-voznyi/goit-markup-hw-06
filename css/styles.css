@@ -34,7 +34,6 @@ h3,
 h4,
 h5,
 h6,
-ul,
 p {
     margin: 0 auto;
 }
@@ -88,7 +87,6 @@ section {
 .header-nav--list {
     display: flex;
     gap: 40px;
-    justify-content: flex-end;
 }
 
 .header-nav--list-link {
@@ -123,10 +121,6 @@ section {
     display: inline-block;
 }
 
-.address-box {
-    font-style: normal;
-}
-
 .contacts-link {
     font-weight: 400;
     font-size: 16px;
@@ -142,20 +136,18 @@ section {
 }
 
 .solutions {
-    background: #2e2f42;
+    background-color: #2e2f42;
     padding: 188px 0;
 }
 
 .solutions-title {
-    max-width: 496px;
     font-size: 56px;
     line-height: 1.07;
     text-align: center;
     letter-spacing: 0.02em;
     color: #fff;
-
-    margin-right: auto;
-    margin-left: auto;
+    max-width: 496px;
+    margin: 0 auto 48px auto;
 }
 
 .button-box {
