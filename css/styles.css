@@ -43,7 +43,7 @@ img {
 }
 
 .container {
-    width: 1158px;
+    max-width: 1158px;
     margin: 0 auto;
     padding: 0 15px;
 }
@@ -219,7 +219,6 @@ button:focus {
 .portfolio-list--text {
     letter-spacing: 0.02em;
 }
-
 
 .team {
     background-color: #f4f4fd;
