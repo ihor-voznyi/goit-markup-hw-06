@@ -166,7 +166,6 @@ button:focus {
     background: #404bbf;
 }
 
-
 .advantages-title,
 .team-title,
 .portfolio-title {
@@ -178,7 +177,6 @@ button:focus {
     text-transform: capitalize;
     margin-bottom: 72px;
 }
-
 
 .visually-hidden {
     display: none;
