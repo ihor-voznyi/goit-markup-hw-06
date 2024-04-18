@@ -365,7 +365,7 @@ button:focus {
 }
 
 .portfolio-list--item:hover .advantages-list--text {
-    transform: translateY(0);
+    transform: translateY(0%);
 }
 
 .footer {
