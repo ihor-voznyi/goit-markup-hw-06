@@ -288,7 +288,7 @@ button:focus {
 
 .team-list--descr {
     text-align: center;
-    padding: 32px 0;
+    padding: 32px 0px;
 }
 
 .team-list--text {
@@ -380,7 +380,7 @@ button:focus {
         0 1px 6px 0 rgba(46, 47, 66, 0.08)
 }
 
-.portfolio-list--item:hover .advantages-list--text {
+.portfolio-list--item:hover .portfolio-list--text {
     transform: translateY(0%);
 }
 
