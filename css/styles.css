@@ -326,6 +326,11 @@ button:focus {
     transition: box-shadow 250ms cubic-bezier(0, 4, 0, 0.2, 1);
 }
 
+.portfolio-list--box {
+    position: relative;
+    overflow: hidden;
+}
+
 .portfolio-list--descr {
     padding: 32px 16px;
     border-bottom: 1px solid #e7e9fc;
@@ -367,6 +372,11 @@ button:focus {
 .footer {
     background-color: #2e2f42;
     padding: 100px 0 100px;
+}
+
+.footer .container {
+    display: flex;
+    align-items: baseline;
 }
 
 .footer-logo {
@@ -431,4 +441,8 @@ button:focus {
 
 .footer-social--link:focus {
     background-color: #31d0aa;
+}
+
+.footer-descr {
+    margin-right: 120px;
 }
