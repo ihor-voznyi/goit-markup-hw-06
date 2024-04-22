@@ -265,7 +265,6 @@ button:focus {
 
 .team-list {
     display: flex;
-    justify-content: flex;
     gap: 24px;
 }
 
