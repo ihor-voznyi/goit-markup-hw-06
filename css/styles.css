@@ -108,7 +108,7 @@ section {
     color: #404bbf;
 }
 
-.header-nav--link:active::after {
+.header-nav--link.active::after {
     position: absolute;
     content: "";
     left: 0;
@@ -189,7 +189,7 @@ section {
 }
 
 button:hover {
-    background-color: #404bbf;
+    background: #404bbf;
 }
 
 button:focus {
@@ -317,11 +317,11 @@ button:focus {
 }
 
 .team-list--social-link:hover {
-    background-color: #404bbf;
+    background: #404bbf;
 }
 
 .team-list--social-link:focus {
-    background-color: #404bbf;
+    background: #404bbf;
 }
 
 .team-list--social-svg {
