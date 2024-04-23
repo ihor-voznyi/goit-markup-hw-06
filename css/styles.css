@@ -104,11 +104,11 @@ section {
     transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.header-nav--link:active {
+.header-nav--list-link:active {
     color: #404bbf;
 }
 
-.header-nav--link.active::after {
+.header-nav--list-link.active::after {
     position: absolute;
     content: "";
     left: 0;
@@ -317,11 +317,11 @@ button:focus {
 }
 
 .team-list--social-link:hover {
-    background: #404bbf;
+    background-color: #404bbf;
 }
 
 .team-list--social-link:focus {
-    background: #404bbf;
+    background-color: #404bbf;
 }
 
 .team-list--social-svg {
