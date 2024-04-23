@@ -119,11 +119,11 @@ section {
     background-color: #404bbf;
 }
 
-.header-nav--link:hover {
+.header-nav--list-link:hover {
     color: #404bbf;
 }
 
-.header-contact--link:focus {
+.header-nav--list-link:focus {
     color: #404bbf;
 }
 
