@@ -628,6 +628,7 @@ button:focus {
 
 .modal-form--user-input {
     margin-bottom: 8px;
+    position: relative;
 }
 
 .modal-form--label {
