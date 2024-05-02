@@ -640,10 +640,6 @@ button:focus {
     margin-bottom: 4px;
 }
 
-.footer-form--input-wrapper {
-    position: relative;
-}
-
 .modal-form--input {
     font-family: "Roboto", sans-serif;
     font-style: normal;
