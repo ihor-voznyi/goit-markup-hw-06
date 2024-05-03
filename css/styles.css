@@ -639,6 +639,10 @@ button:focus {
     margin-bottom: 4px;
 }
 
+.modal-form--input-wrapper {
+    position: relative;
+}
+
 .modal-form--input {
     font-family: "Roboto", sans-serif;
     font-style: normal;
@@ -673,7 +677,7 @@ button:focus {
     border-color: #4d5ae5;
 }
 
-.modal-form--input:focus + .modal-form--svg {
+.modal-form--input:focus+.modal-form--svg {
     fill: #4d5ae5;
 }
 
@@ -745,7 +749,7 @@ button:focus {
     margin-right: 8px;
 }
 
-.modal-form--privacypolicy-input:checked + .modal-form--privacypolicy-label .modal-form--span-svg {
+.modal-form--privacypolicy-input:checked+.modal-form--privacypolicy-label .modal-form--span-svg {
     background-color: #404bbf;
     border: none;
     fill: #f4f4fd;
