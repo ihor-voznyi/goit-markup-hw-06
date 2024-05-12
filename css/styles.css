@@ -409,6 +409,16 @@ button:focus {
     padding: 32px 0px;
 }
 
+.team-list--title {
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
+    text-align: center;
+    margin-bottom: 8px;
+}
+
 .team-list--text {
     margin-bottom: 8px;
 }
@@ -534,10 +544,6 @@ button:focus {
     text-align: left;
     letter-spacing: 0.02em;
     color: #f4f4fd;
-}
-
-.footer-social {
-    margin-right: 80px;
 }
 
 .footer-social--title {
@@ -1004,11 +1010,20 @@ button:focus {
     }
 
     .advantages-list--item {
-        width: calc((100%- 24px) / 2);
+        width: calc((100% - 24px) / 2);
     }
 
     .advantages-list--title {
         text-align: left;
+    }
+
+    .advantages-list--title {
+        text-align: center;
+        font-size: 36px;
+        line-height: 1.2;
+        letter-spacing: 0.02em;
+        color: #2e2f42;
+        margin-bottom: 8px;
     }
 
     .team-list {
@@ -1018,7 +1033,7 @@ button:focus {
     }
 
     .team-list--item {
-        width: calc((100% - 186px) / 2);
+        width: calc((100% - 186px) / 2)
     }
 
     .portfolio-list {
@@ -1055,7 +1070,7 @@ button:focus {
 }
 
 @media (min-resolution: 192dpi) and (min-width: 768px) {
-    .hero {
+    .solutions {
         background-image: linear-gradient(to bottom, rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)) url("../images/hero/hero-tablet-bg@2x.jpg");
     }
 }
@@ -1083,12 +1098,12 @@ button:focus {
         padding: 120px 0;
     }
 
-    .hero {
+    .solutions {
         padding: 188px 0;
         background-image: linear-gradient(to bottom, rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)) url("../images/hero/hero-desktop-bg.jpg");
     }
 
-    .hero-title {
+    .solutions-title {
         font-size: 56px;
         margin: 0 auto 48px auto;
     }
@@ -1143,7 +1158,7 @@ button:focus {
 }
 
 @media (min-resolution: 192dpi) and (min-width: 1158px) {
-    .hero {
+    .solutions {
         background-image: linear-gradient(to bottom, rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
             url("../images/hero/hero-desktop-bg@2x.jpg");
     }
