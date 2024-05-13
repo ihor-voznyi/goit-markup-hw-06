@@ -265,8 +265,8 @@ section {
 
 .solutions {
     padding: 72px 0;
-    background-image: linear-gradient(to bottom, rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
-        url("../images/hero/hero-mobile-bg.jpg");
+    /*background-image: linear-gradient(to bottom, rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
+        url("../images/hero/hero-mobile-bg.jpg"); */
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
@@ -790,7 +790,7 @@ button:focus {
     border-color: #4d5ae5;
 }
 
-.modal-form--input:focus + .modal-form--svg {
+.modal-form--input:focus+.modal-form--svg {
     fill: #4d5ae5;
 }
 
@@ -858,7 +858,7 @@ button:focus {
     margin-right: 8px;
 }
 
-.modal-form--privacypolicy-input:checked + .modal-form--privacypolicy-label .modal-form--span-svg {
+.modal-form--privacypolicy-input:checked+.modal-form--privacypolicy-label .modal-form--span-svg {
     background-color: #404bbf;
     border: none;
     fill: #f4f4fd;
