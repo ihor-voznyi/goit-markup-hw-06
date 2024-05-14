@@ -52,7 +52,7 @@ body {
     padding: 0 15px;
 }
 
-section {
+.section {
     padding: 96px 0;
 }
 
@@ -792,7 +792,7 @@ button:focus {
     border-color: #4d5ae5;
 }
 
-.modal-form--input:focus + .modal-form--svg {
+.modal-form--input:focus+.modal-form--svg {
     fill: #4d5ae5;
 }
 
@@ -860,7 +860,7 @@ button:focus {
     margin-right: 8px;
 }
 
-.modal-form--privacypolicy-input:checked + .modal-form--privacypolicy-label .modal-form--span-svg {
+.modal-form--privacypolicy-input:checked+.modal-form--privacypolicy-label .modal-form--span-svg {
     background-color: #404bbf;
     border: none;
     fill: #f4f4fd;
